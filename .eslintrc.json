@@ -1,0 +1,49 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:storybook/recommended"
+  ],
+  "ignorePatterns": [
+    "dist",
+    ".eslintrc.cjs"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "react-refresh",
+    "prettier",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": [
+          "interface",
+          "typeAlias"
+        ],
+        "format": [
+          "PascalCase"
+        ]
+      },
+      {
+        "selector": [
+          "enumMember",
+          "enum"
+        ],
+        "format": [
+          "UPPER_CASE"
+        ]
+      }
+    ],
+    "react-refresh/only-export-components": [
+      "warn",
+      {
+        "allowConstantExport": true
+      }
+    ]
+  }
+}
