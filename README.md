@@ -1,30 +1,60 @@
-# React + TypeScript + Vite
+# React Boilerplate using Styled Components Design System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a boilerplate for React projects using styled-components and a design system. It is based on the [styled-components design system](https://styled-components.com/docs/tooling#design-systems) documentation. It also includes Prettier, Eslint, Storybook, Vitest, and React Testing Library.
 
-Currently, two official plugins are available:
+With this boilerplate, you can start a new project with a design system and a component library. You can also use the Storybook to document your components and the Vitest to test them. The React Testing Library is also included to test your components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> [!IMPORTANT]
+> This boilerplate is only a starting point for your project. You can customize it as you wish.
+> The design tokens must be adjusted for your needs.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [x] React
+- [x] styled-components
+- [x] Prettier
+- [x] Eslint
+- [x] Storybook
+- [x] Vitest
+- [x] React Testing Library
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Clone the repository
+
+```bash
+git clone https://github.com/fabiorodriguesdev/boilerplate-ds-sc.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Install dependencies
+
+```bash
+npm install
+```
+
+3. Start the development server
+
+```bash
+npm run dev
+```
+
+4. Build the project
+
+```bash
+npm run build
+```
+
+5. Run Storybook
+
+```bash
+npm run  storybook
+```
+
+6. Run tests
+
+```bash
+npm run test
+npm run test:watch
+npm run test:ui
+npm run test:coverage
+```
