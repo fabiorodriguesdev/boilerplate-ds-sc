@@ -5,8 +5,9 @@ This is a boilerplate for React projects using styled-components and a design sy
 With this boilerplate, you can start a new project with a design system and a component library. You can also use the Storybook to document your components and the Vitest to test them. The React Testing Library is also included to test your components.
 
 > [!IMPORTANT]
-> This boilerplate is only a starting point for your project. You can customize it as you wish.
-> The design tokens must be adjusted for your needs.
+>
+> - This boilerplate is only a starting point for your project. You can customize it as you wish.
+> - The design tokens must be adjusted for your needs.
 
 ## Features
 
