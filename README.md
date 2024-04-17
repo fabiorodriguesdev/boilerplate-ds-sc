@@ -33,25 +33,25 @@ git clone https://github.com/fabiorodriguesdev/boilerplate-ds-sc.git
 npm install
 ```
 
-3. Start the development server
+### Start the development server
 
 ```bash
 npm run dev
 ```
 
-4. Build the project
+### Build the project
 
 ```bash
 npm run build
 ```
 
-5. Run Storybook
+### Run Storybook
 
 ```bash
 npm run  storybook
 ```
 
-6. Run tests
+### Run tests
 
 ```bash
 npm run test
